@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8"/>
+        <meta name="viewport" content="width=device-width, intial-scle=1.0"/>
+        <title>Form 2 Create</title>
+    </head>
+    <body>
+        <form>
+            <p><label for="username">User name:&emsp;&emsp;</label>
+            <input type="text" required id="username"/></p>
+           
+            <p><label for="password">Password:&emsp;&emsp;</label>
+            <input type="password" required id="password"/></p>
+            <p><label for="employment">City of</br> Employment:&emsp;&emsp;</label>
+                <input type="text" required id="employment"/></p>
+             <p><label for="web serber">Web server:&emsp;&emsp;</label> 
+               <select id="web serber">
+                <option value="Choose a server">Choose a server</option>
+                <option value="Apache HTTP Server">Apache HTTP Server</option>
+                <option value="Apache Tomcat">Apache Tomcat</option>
+                <option value="Caddy">Caddy</option>
+                <option value="Node.js">Node.js</option>
+                <option value="Oracle iPlanet Web Server">Oracle iPlanet Web Server</option>
+                <option value="Lighttpd">Lighttpd</option>
+                <option value="Nginx">Nginx</option>
+                </select></p>
+            <span>Please specify </br>your role:</span></br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
+            <input type="radio" id="Admin" name="specify role"/><label for="admin">Admin</label></br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="radio" id="Engineer" name="specify role"/><label for="engineer">Engineer</label></br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="radio" id="Manager" name="specify role"/><label for="manager">Manager</label></br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="radio" id="Guest" name="specify rple"/><label for="Guest">Guest</label></p>
+
+            <p><span>Single sign on</br>to the following:</span></br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="checkbox" id="Mail"/><label for="mail">Mail</label></br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="checkbox" id="payroll"/><label for="payroll">Payroll</label></br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="checkbox" id="self service"/><label for="self service">Self service</label>
+            </p>
+            <br/>
+            <button type="submit">Submit</button>  <button type="reset">Reset</button>
+        </form>
+    </body>
+    
+</html>
